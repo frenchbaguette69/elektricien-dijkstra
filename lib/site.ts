@@ -3,8 +3,12 @@ export const site = {
   domain: "elektriciendijkstra.nl",
   url: "https://elektriciendijkstra.nl",
   description:
-    "Elektricien Dijkstra: vakkundig elektrawerk door heel Nederland.",
+    "Elektricien Dijkstra: storingen, groepenkasten en elektra aanleggen. Vakkundig elektrawerk door heel Nederland.",
   serviceArea: "Landelijk",
+  // TODO: vervang door het echte telefoonnummer en e-mailadres
+  phone: "06 00 00 00 00",
+  phoneHref: "tel:+31600000000",
+  email: "info@elektriciendijkstra.nl",
   company: {
     legalName: "I.B Techniek",
     kvk: "96113480",
