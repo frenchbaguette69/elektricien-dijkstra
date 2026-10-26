@@ -18,7 +18,7 @@ export const diensten: Dienst[] = [
     slug: "groepenkast-vervangen",
     title: "Groepenkast vervangen",
     short: "Een veilige, moderne groepenkast met voldoende groepen en aardlekschakelaars.",
-    visual: { illustration: "groepenkast" },
+    visual: { image: "/services/groepenkast-vervangen.svg" },
     featured: true,
     intro: [
       "Bij Elektricien Dijkstra vervangen we dagelijks groepenkasten. Van een verouderde kast met smeltzekeringen tot een uitbreiding voor een inductiekookplaat, warmtepomp of laadpaal.",
@@ -50,7 +50,7 @@ export const diensten: Dienst[] = [
     slug: "meterkast-vervangen",
     title: "Meterkast vervangen",
     short: "Een verouderde meterkast vernieuwen, inclusief afstemming met de netbeheerder.",
-    visual: { illustration: "groepenkast" },
+    visual: { image: "/services/meterkast-vervangen.svg" },
     intro: [
       "Een meterkast bevat de hoofdaansluiting, de meter en de groepenkast. In oudere woningen is de meterkast vaak te klein of niet meer veilig voor het huidige stroomverbruik.",
       "Wij vernieuwen de installatie achter de meter en stemmen waar nodig af met uw netbeheerder, bijvoorbeeld bij een verzwaring van de aansluiting.",
@@ -81,7 +81,7 @@ export const diensten: Dienst[] = [
     slug: "elektra-aanleggen",
     title: "Elektra aanleggen",
     short: "Nieuwe groepen, stopcontacten, schakelaars en complete installaties.",
-    visual: { image: images.kabels },
+    visual: { image: "/services/elektra-aanleggen.svg" },
     featured: true,
     intro: [
       "Bij Elektricien Dijkstra vinden we dat u niet meerdere bedrijven hoeft in te huren om één klus te klaren. Daarom bieden we een uitgebreide lijst met elektrische diensten aan.",
@@ -113,7 +113,7 @@ export const diensten: Dienst[] = [
     slug: "kortsluiting-oplossen",
     title: "Kortsluiting oplossen",
     short: "De oorzaak van kortsluiting snel opsporen en veilig verhelpen.",
-    visual: { image: images.multimeter },
+    visual: { image: "/services/kortsluiting-oplossen.svg" },
     featured: true,
     intro: [
       "Het elektrische systeem in huis is complex en bedient zowel apparaten als verlichting. Een kortsluiting is vaak een teken dat er ergens iets misgaat.",
@@ -145,7 +145,7 @@ export const diensten: Dienst[] = [
     slug: "24-7-spoed-elektricien",
     title: "24/7 spoed elektricien",
     short: "Dag en nacht hulp bij storingen, stroomuitval en gevaarlijke situaties.",
-    visual: { illustration: "monteur" },
+    visual: { image: "/services/24-7-spoed-elektricien.svg" },
     featured: true,
     intro: [
       "Noodsituaties kunnen hoofdpijn veroorzaken, vooral wanneer uw gezin of bedrijf wordt getroffen. Daarom bieden wij een 24/7 elektrische noodservice aan.",
@@ -177,7 +177,7 @@ export const diensten: Dienst[] = [
     slug: "stroomstoring-oplossen",
     title: "Stroomstoring oplossen",
     short: "Een groep of het hele huis zonder stroom? Wij vinden de oorzaak.",
-    visual: { image: images.multimeter },
+    visual: { image: "/services/stroomstoring-oplossen.svg" },
     intro: [
       "Een stroomstoring kan veel oorzaken hebben: een defect apparaat, vocht in een buitenstopcontact, een overbelaste groep of een probleem in de bedrading.",
       "Onze monteurs sporen de oorzaak systematisch op en zorgen dat u zo snel mogelijk weer veilig stroom heeft.",
@@ -208,7 +208,7 @@ export const diensten: Dienst[] = [
     slug: "stroomuitval-verhelpen",
     title: "Stroomuitval verhelpen",
     short: "Volledige stroomuitval in huis of bedrijf snel en veilig opgelost.",
-    visual: { illustration: "monteur" },
+    visual: { image: "/services/stroomuitval-verhelpen.svg" },
     intro: [
       "Valt de stroom in uw hele woning of bedrijfspand uit, dan wilt u snel weten wat er aan de hand is. Wij helpen u om de oorzaak te vinden en de stroom veilig te herstellen.",
       "Na het herstel krijgt u advies om herhaling te voorkomen, bijvoorbeeld door de groepen beter te verdelen.",
@@ -239,7 +239,7 @@ export const diensten: Dienst[] = [
     slug: "renovatie-van-elektra",
     title: "Renovatie van elektra",
     short: "Verouderde bedrading en installaties vernieuwen volgens de huidige norm.",
-    visual: { image: images.kabels },
+    visual: { image: "/services/renovatie-van-elektra.svg" },
     intro: [
       "Bij een verbouwing of in een ouder huis is het verstandig om de elektra te vernieuwen. Oude bedrading kan brandgevaarlijk zijn en voldoet vaak niet meer aan de huidige eisen.",
       "Wij renoveren uw installatie stap voor stap, zodat u veilig en met voldoende capaciteit verder kunt.",
@@ -270,7 +270,7 @@ export const diensten: Dienst[] = [
     slug: "oude-gebouwen-renoveren",
     title: "Oude gebouwen renoveren",
     short: "Elektra in monumenten en oudere panden met zorg vernieuwen.",
-    visual: { image: images.team },
+    visual: { image: "/services/oude-gebouwen-renoveren.svg" },
     intro: [
       "Oudere panden en monumenten vragen om extra zorg. De bestaande constructie en afwerking wilt u zoveel mogelijk behouden, terwijl de elektra veilig en modern moet worden.",
       "Wij denken mee over slimme oplossingen om leidingen weg te werken zonder onnodige schade.",
@@ -301,7 +301,7 @@ export const diensten: Dienst[] = [
     slug: "elektra-voor-nieuwbouw",
     title: "Elektra voor nieuwbouw",
     short: "Complete elektrische installatie voor nieuwbouw, aanbouw en opbouw.",
-    visual: { image: images.kabels },
+    visual: { image: "/services/elektra-voor-nieuwbouw.svg" },
     intro: [
       "Bouwt u een nieuwe woning, aanbouw of bedrijfspand? Wij verzorgen de complete elektrische installatie, van ontwerp tot oplevering.",
       "We denken vooruit, zodat uw installatie klaar is voor een laadpaal, zonnepanelen, warmtepomp of slimme verlichting.",
@@ -332,7 +332,7 @@ export const diensten: Dienst[] = [
     slug: "schakelaars-en-bekabeling",
     title: "Schakelaars en bekabeling",
     short: "Schakelaars, dimmers, stopcontacten en kabels vervangen of bijplaatsen.",
-    visual: { image: images.kabels },
+    visual: { image: "/services/schakelaars-en-bekabeling.svg" },
     intro: [
       "Een stopcontact dat los zit, een schakelaar die niet meer goed werkt of te weinig aansluitpunten: kleine klussen die toch vakwerk vragen.",
       "Wij vervangen en plaatsen schakelaars, dimmers en stopcontacten en leggen nieuwe bekabeling netjes aan.",
@@ -363,7 +363,7 @@ export const diensten: Dienst[] = [
     slug: "led-verlichting-aansluiten",
     title: "(LED-)verlichting aansluiten",
     short: "Binnen- en buitenverlichting, spots en LED-strips vakkundig aangesloten.",
-    visual: { image: images.kabels },
+    visual: { image: "/services/led-verlichting-aansluiten.svg" },
     intro: [
       "Goede verlichting maakt een ruimte. Wij sluiten alle soorten verlichting aan, van inbouwspots en hanglampen tot LED-strips en tuinverlichting.",
       "We adviseren over de juiste armaturen, dimmers en schakelingen, zodat u energiezuinig en sfeervol licht heeft.",
@@ -394,7 +394,7 @@ export const diensten: Dienst[] = [
     slug: "lampen-installeren",
     title: "Lampen installeren",
     short: "Hanglampen, plafondlampen en wandlampen veilig opgehangen en aangesloten.",
-    visual: { image: images.kabels },
+    visual: { image: "/services/lampen-installeren.svg" },
     intro: [
       "Een nieuwe lamp ophangen lijkt eenvoudig, maar zware armaturen en slechte aansluitingen kunnen gevaarlijk zijn.",
       "Wij hangen uw lampen stevig op en sluiten ze veilig aan, ook op hoge plafonds of lastige plekken.",
@@ -425,7 +425,7 @@ export const diensten: Dienst[] = [
     slug: "perilex-aansluitingen",
     title: "Perilex aansluitingen",
     short: "Perilex of krachtstroom voor kookplaten, ovens en zware apparatuur.",
-    visual: { image: images.kabels },
+    visual: { image: "/services/perilex-aansluitingen.svg" },
     intro: [
       "Voor een elektrische of inductiekookplaat heeft u vaak een perilex aansluiting of een aparte groep nodig. Een gewoon stopcontact kan die belasting niet aan.",
       "Wij leggen een perilex aansluiting aan inclusief de benodigde groepen in de groepenkast.",
@@ -456,7 +456,7 @@ export const diensten: Dienst[] = [
     slug: "elektra-problemen",
     title: "Elektra problemen",
     short: "Flikkerende lampen, warme stopcontacten of een zoemende groepenkast? Wij helpen.",
-    visual: { image: images.multimeter },
+    visual: { image: "/services/elektra-problemen.svg" },
     intro: [
       "We raden u aan om bij de eerste tekenen van elektrische problemen te bellen. Vroeg opgeloste problemen besparen tijd, geld en frustratie.",
       "Het negeren van een elektrisch probleem kan leiden tot dure reparaties of gevaarlijke situaties.",
@@ -487,7 +487,7 @@ export const diensten: Dienst[] = [
     slug: "laadpaal-installeren",
     title: "Laadpaal installeren",
     short: "Een laadpaal of wallbox thuis of bij uw bedrijf, veilig aangesloten op een eigen groep.",
-    visual: { image: images.kabels },
+    visual: { image: "/services/laadpaal-installeren.svg" },
     intro: [
       "Rijdt u elektrisch? Dan wilt u gemakkelijk en veilig thuis kunnen laden. Elektricien Dijkstra installeert laadpalen en wallboxen van alle gangbare merken, voor particulieren en bedrijven.",
       "We controleren eerst of uw groepenkast en aansluiting voldoende capaciteit hebben. Waar nodig breiden we de kast uit of adviseren we over een zwaardere aansluiting, zodat u zonder storingen kunt laden.",
@@ -518,7 +518,7 @@ export const diensten: Dienst[] = [
     slug: "zonnepanelen-aansluiten",
     title: "Zonnepanelen aansluiten",
     short: "Omvormer en zonnepanelen veilig aangesloten op een eigen groep in uw meterkast.",
-    visual: { illustration: "groepenkast" },
+    visual: { image: "/services/zonnepanelen-aansluiten.svg" },
     intro: [
       "Zonnepanelen leveren alleen het maximale op als de omvormer goed is aangesloten. Elektricien Dijkstra verzorgt de elektrische aansluiting van uw zonnepanelen, van omvormer tot groepenkast.",
       "Ook bij storingen aan de omvormer, een aardlekschakelaar die steeds uitslaat of het uitbreiden van een bestaand systeem bent u bij ons aan het juiste adres.",
@@ -549,7 +549,7 @@ export const diensten: Dienst[] = [
     slug: "rookmelders-plaatsen",
     title: "Rookmelders plaatsen",
     short: "Rookmelders op de juiste plekken, los of gekoppeld, voor een veilige woning.",
-    visual: { illustration: "monteur" },
+    visual: { image: "/services/rookmelders-plaatsen.svg" },
     intro: [
       "Sinds 2022 zijn rookmelders verplicht op elke verdieping met een verblijfsruimte of vluchtroute. Elektricien Dijkstra plaatst rookmelders op de juiste plekken, zodat u en uw gezin op tijd gewaarschuwd worden.",
       "We plaatsen losse rookmelders met een lange levensduur, maar ook draadloos gekoppelde of vast aangesloten melders. Gaat er één af, dan gaan ze allemaal af.",
