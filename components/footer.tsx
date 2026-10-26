@@ -75,7 +75,8 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-neutral-200 py-4 text-center text-xs text-neutral-600">
-        © <CurrentYear /> {site.name}, onderdeel van {site.company.legalName}
+        © <CurrentYear /> {site.name}, onderdeel van {site.company.legalName} · Partner:{" "}
+        <a href="https://mjrenovatie.nl" target="_blank" rel="noopener" className="hover:text-neutral-900">MJ Renovatie</a>
       </div>
     </footer>
   );
