@@ -8,6 +8,8 @@ export const site = {
   phone: "085 226 2071",
   phoneHref: "tel:+31852262071",
   email: "info@hollandinstallatie.nl",
+  // Meldingen van het contactformulier
+  formEmail: "info@elektriciendijkstra.nl",
   company: {
     legalName: "Holland Installatie",
     kvk: "9271061",

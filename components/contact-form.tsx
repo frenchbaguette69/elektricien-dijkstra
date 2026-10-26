@@ -48,7 +48,7 @@ export function ContactForm() {
       "",
       get("bericht"),
     ].join("\n");
-    window.location.href = `mailto:${site.email}?subject=${encodeURIComponent(
+    window.location.href = `mailto:${site.formEmail}?subject=${encodeURIComponent(
       `${onderwerp} via website`,
     )}&body=${encodeURIComponent(body)}`;
     setSent(true);
