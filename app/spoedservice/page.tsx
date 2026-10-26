@@ -35,6 +35,7 @@ export default function SpoedservicePage() {
       <PageHero
         eyebrow="Voor spoedstoringen zijn wij 24/7 beschikbaar"
         title="Spoed elektricien in heel Nederland"
+        image="/services/24-7-spoed-elektricien.svg"
         breadcrumbs={[{ label: "Spoedservice" }]}
       />
       <section className={`${container} grid gap-10 py-12 lg:grid-cols-[1fr_280px] lg:gap-16`}>

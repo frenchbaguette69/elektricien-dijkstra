@@ -183,7 +183,7 @@ export function DienstVisual({ visual, alt, size = 160 }: { visual: Visual; alt:
         alt={alt}
         width={size}
         height={size}
-        className="object-contain"
+        className="rounded-lg object-cover"
         style={{ width: size, height: size }}
       />
     );

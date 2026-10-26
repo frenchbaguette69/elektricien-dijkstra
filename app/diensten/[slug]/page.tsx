@@ -40,6 +40,7 @@ export default async function DienstPage({ params }: PageProps<"/diensten/[slug]
       <PageHero
         eyebrow={site.name}
         title={dienst.title}
+        image={dienst.visual && "image" in dienst.visual ? dienst.visual.image : undefined}
         breadcrumbs={[{ href: "/diensten", label: "Diensten" }, { label: dienst.title }]}
       />
       <section className={`${container} grid gap-10 py-12 lg:grid-cols-[1fr_280px] lg:gap-16`}>
