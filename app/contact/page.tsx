@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Building2, Mail, Phone } from "lucide-react";
 import { TrustBadges } from "@/components/badges";
 import { ContactForm } from "@/components/contact-form";
 import { MapEmbed, PageHero, container } from "@/components/sections";
@@ -42,22 +42,17 @@ export default function ContactPage() {
             </li>
             <li className="flex items-start gap-3">
               <span className="flex h-10 w-10 shrink-0 items-center justify-center bg-accent">
-                <MapPin className="h-4 w-4" aria-hidden />
+                <Building2 className="h-4 w-4" aria-hidden />
               </span>
-              <address className="not-italic">
+              <p>
                 <span className="font-bold">{company.legalName}</span>
                 <br />
-                {company.address.street}
-                <br />
-                {company.address.postalCode} {company.address.city}
-                <br />
                 KVK: {company.kvk}
-              </address>
+              </p>
             </li>
           </ul>
           <p className="mb-6 bg-muted p-4 text-sm leading-relaxed">
-            Let op: dit is ons postadres. Wij hebben geen bezoekadres, onze monteurs komen naar u toe. Wij werken
-            in heel Nederland.
+            Wij hebben geen bezoekadres, onze monteurs komen naar u toe. Wij werken in heel Nederland.
           </p>
           <TrustBadges />
         </div>

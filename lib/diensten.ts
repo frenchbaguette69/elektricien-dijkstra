@@ -483,6 +483,99 @@ export const diensten: Dienst[] = [
       },
     ],
   },
+  {
+    slug: "laadpaal-installeren",
+    title: "Laadpaal installeren",
+    short: "Een laadpaal of wallbox thuis of bij uw bedrijf, veilig aangesloten op een eigen groep.",
+    visual: { image: images.kabels },
+    intro: [
+      "Rijdt u elektrisch? Dan wilt u gemakkelijk en veilig thuis kunnen laden. Elektricien Dijkstra installeert laadpalen en wallboxen van alle gangbare merken, voor particulieren en bedrijven.",
+      "We controleren eerst of uw groepenkast en aansluiting voldoende capaciteit hebben. Waar nodig breiden we de kast uit of adviseren we over een zwaardere aansluiting, zodat u zonder storingen kunt laden.",
+    ],
+    tasks: [
+      "Advies over het juiste type laadpaal en laadvermogen",
+      "Controle van de groepenkast en de hoofdaansluiting",
+      "Een eigen groep met de juiste aardlekbeveiliging",
+      "Kabel netjes trekken naar de oprit, carport of garage",
+      "Aansluiten, testen en uitleg over het gebruik",
+    ],
+    faq: [
+      {
+        q: "Heb ik een 3-fase aansluiting nodig voor een laadpaal?",
+        a: "Niet altijd. Met 1-fase kunt u prima laden, alleen gaat het langzamer. Wij bekijken uw situatie en adviseren wat het beste past bij uw auto en uw rijgedrag.",
+      },
+      {
+        q: "Kan mijn groepenkast een laadpaal aan?",
+        a: "Een laadpaal krijgt altijd een eigen groep. Is er geen ruimte of is de kast verouderd, dan breiden we hem uit of vervangen we hem in dezelfde afspraak.",
+      },
+      {
+        q: "Hoe lang duurt het installeren van een laadpaal?",
+        a: "In de meeste situaties is een laadpaal binnen een dag geplaatst en aangesloten.",
+      },
+    ],
+  },
+  {
+    slug: "zonnepanelen-aansluiten",
+    title: "Zonnepanelen aansluiten",
+    short: "Omvormer en zonnepanelen veilig aangesloten op een eigen groep in uw meterkast.",
+    visual: { illustration: "groepenkast" },
+    intro: [
+      "Zonnepanelen leveren alleen het maximale op als de omvormer goed is aangesloten. Elektricien Dijkstra verzorgt de elektrische aansluiting van uw zonnepanelen, van omvormer tot groepenkast.",
+      "Ook bij storingen aan de omvormer, een aardlekschakelaar die steeds uitslaat of het uitbreiden van een bestaand systeem bent u bij ons aan het juiste adres.",
+    ],
+    tasks: [
+      "Aansluiten van de omvormer op een eigen groep",
+      "Plaatsen van een extra groep of aardlekschakelaar",
+      "Controle van bekabeling en beveiliging",
+      "Opsporen van storingen aan omvormer en installatie",
+      "Advies over thuisbatterij en uitbreiding",
+    ],
+    faq: [
+      {
+        q: "Heeft een omvormer een eigen groep nodig?",
+        a: "Ja. Een omvormer hoort op een eigen groep te zitten, zodat er geen andere apparaten op dezelfde groep zijn aangesloten. Dat is veiliger en voorkomt storingen.",
+      },
+      {
+        q: "Mijn aardlekschakelaar slaat uit sinds de zonnepanelen er zijn. Wat nu?",
+        a: "Dat kan wijzen op een fout in de bekabeling, vocht of een defecte omvormer. Wij meten de installatie door en lossen het probleem op.",
+      },
+      {
+        q: "Kunnen jullie ook een thuisbatterij aansluiten?",
+        a: "Ja, wij sluiten thuisbatterijen aan en adviseren of uw groepenkast hiervoor geschikt is.",
+      },
+    ],
+  },
+  {
+    slug: "rookmelders-plaatsen",
+    title: "Rookmelders plaatsen",
+    short: "Rookmelders op de juiste plekken, los of gekoppeld, voor een veilige woning.",
+    visual: { illustration: "monteur" },
+    intro: [
+      "Sinds 2022 zijn rookmelders verplicht op elke verdieping met een verblijfsruimte of vluchtroute. Elektricien Dijkstra plaatst rookmelders op de juiste plekken, zodat u en uw gezin op tijd gewaarschuwd worden.",
+      "We plaatsen losse rookmelders met een lange levensduur, maar ook draadloos gekoppelde of vast aangesloten melders. Gaat er één af, dan gaan ze allemaal af.",
+    ],
+    tasks: [
+      "Advies over het aantal en de plek van de rookmelders",
+      "Plaatsen van rookmelders op batterij of netstroom",
+      "Draadloos koppelen van meerdere melders",
+      "Testen en uitleg over onderhoud",
+      "Vervangen van oude of defecte melders",
+    ],
+    faq: [
+      {
+        q: "Hoeveel rookmelders heb ik nodig?",
+        a: "Minimaal één op elke verdieping, in de vluchtroute zoals de gang of overloop. Wij adviseren vaak ook een melder in slaapkamers en de woonkamer.",
+      },
+      {
+        q: "Wat is het voordeel van gekoppelde rookmelders?",
+        a: "Gaat er brand uit op zolder terwijl u beneden bent, dan hoort u het direct. Alle gekoppelde melders gaan tegelijk af.",
+      },
+      {
+        q: "Hoe lang gaat een rookmelder mee?",
+        a: "Een rookmelder gaat ongeveer tien jaar mee. Daarna moet hij vervangen worden, ook als hij nog lijkt te werken.",
+      },
+    ],
+  },
 ];
 
 export function getDienst(slug: string) {

@@ -33,17 +33,13 @@ export function Footer() {
             <Mail className="h-3.5 w-3.5 text-brand" aria-hidden />
             {site.email}
           </a>
-          <address className="mt-3 not-italic">
+          <p className="mt-3">
             {site.company.legalName}
             <br />
-            {site.company.address.street}
-            <br />
-            {site.company.address.postalCode} {site.company.address.city}
-            <br />
             KVK: {site.company.kvk}
-          </address>
+          </p>
           <p className="mt-2 text-xs text-neutral-600">
-            Postadres, geen bezoekadres. Wij werken landelijk.
+            Geen bezoekadres, onze monteurs komen naar u toe. Wij werken landelijk.
           </p>
         </div>
         <div className="text-sm">

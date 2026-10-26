@@ -5,20 +5,11 @@ export const site = {
   description:
     "Elektricien Dijkstra: storingen, groepenkasten en elektra aanleggen. Vakkundig elektrawerk door heel Nederland.",
   serviceArea: "Landelijk",
-  // TODO: vervang door het echte telefoonnummer en e-mailadres
-  phone: "06 00 00 00 00",
-  phoneHref: "tel:+31600000000",
-  email: "info@elektriciendijkstra.nl",
+  phone: "085 226 2071",
+  phoneHref: "tel:+31852262071",
+  email: "info@hollandinstallatie.nl",
   company: {
-    legalName: "I.B Techniek",
-    kvk: "96113480",
-    // Postadres, geen bezoekadres
-    address: {
-      street: "Markerkant 13 10",
-      postalCode: "1314 AN",
-      city: "Almere",
-      country: "NL",
-    },
-    hasVisitingAddress: false,
+    legalName: "Holland Installatie",
+    kvk: "9271061",
   },
 } as const;

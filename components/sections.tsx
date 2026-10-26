@@ -217,6 +217,97 @@ export function DienstCard({ dienst }: { dienst: Dienst }) {
   );
 }
 
+export function DienstenGrid({ items = diensten }: { items?: Dienst[] }) {
+  return (
+    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {items.map((d) => (
+        <Link
+          key={d.slug}
+          href={`/diensten/${d.slug}`}
+          className="group flex flex-col items-center bg-muted p-6 text-center transition-shadow hover:shadow-md"
+        >
+          <div className="mb-4 flex h-40 items-center justify-center">
+            <DienstVisual visual={d.visual} alt={d.title} size={140} />
+          </div>
+          <h3 className="mb-2 text-lg font-bold group-hover:text-brand">{d.title}</h3>
+          <p className="mb-4 text-sm leading-relaxed">{d.short}</p>
+          <span className="mt-auto inline-flex items-center gap-2 text-sm font-bold text-brand">
+            Meer informatie
+            <ArrowRight className="h-4 w-4" aria-hidden />
+          </span>
+        </Link>
+      ))}
+    </div>
+  );
+}
+
+export function DienstenCompact({ items = diensten }: { items?: Dienst[] }) {
+  return (
+    <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {items.map((d) => (
+        <li key={d.slug}>
+          <Link
+            href={`/diensten/${d.slug}`}
+            className="group flex h-full items-start gap-3 border-l-4 border-brand bg-muted p-4 transition-shadow hover:shadow-md"
+          >
+            <span className="flex-1">
+              <span className="block font-bold group-hover:text-brand">{d.title}</span>
+              <span className="mt-1 block text-sm leading-relaxed">{d.short}</span>
+            </span>
+            <ChevronRight className="mt-0.5 h-5 w-5 shrink-0 stroke-[3] text-brand" aria-hidden />
+          </Link>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+export function OverOnsSection() {
+  return (
+    <section className={`${container} grid items-center gap-10 py-14 md:grid-cols-2`}>
+      <div className="relative aspect-[4/3] w-full overflow-hidden">
+        <Image
+          src={images.hoofdmonteur}
+          alt={`Monteur van ${site.name} aan het werk`}
+          fill
+          sizes="(min-width: 768px) 520px, 100vw"
+          className="object-cover"
+        />
+      </div>
+      <div>
+        <h2 className="mb-3 text-xl font-bold">Over {site.name}</h2>
+        <p className="mb-4 text-sm leading-relaxed">
+          {site.name} is een elektrotechnisch installatiebedrijf voor particulieren, verhuurders en bedrijven.
+          Onze monteurs zijn gediplomeerd en hebben jarenlange ervaring met storingen, groepenkasten, renovaties en
+          complete installaties. Elke klus voeren we uit volgens de geldende normen, zodat u zeker weet dat uw
+          installatie veilig is.
+        </p>
+        <p className="mb-4 text-sm leading-relaxed">
+          Wij geloven in eerlijk advies. Is iets niet nodig, dan zeggen we dat ook. U krijgt vooraf een duidelijke
+          prijs, onze monteurs werken netjes en ruimen na afloop alles op. Na de klus leggen we uit wat we hebben
+          gedaan en waar u in de toekomst op moet letten.
+        </p>
+        <h3 className="mb-2 font-bold">Zo werken wij</h3>
+        <ol className="space-y-2 text-sm">
+          {[
+            "U belt of vult het contactformulier in en vertelt wat er aan de hand is.",
+            "Wij plannen een afspraak die u uitkomt, bij spoed vaak nog dezelfde dag.",
+            "De monteur bekijkt de situatie en geeft vooraf een duidelijke prijs.",
+            "Na akkoord voeren we het werk direct uit en testen we alles goed na.",
+          ].map((stap, i) => (
+            <li key={stap} className="flex gap-3">
+              <span className="flex h-6 w-6 shrink-0 items-center justify-center bg-brand text-xs font-bold text-white">
+                {i + 1}
+              </span>
+              {stap}
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  );
+}
+
 export function DienstenLinks({ className = "" }: { className?: string }) {
   return (
     <ul className={className}>

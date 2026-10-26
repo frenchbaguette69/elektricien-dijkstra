@@ -1,4 +1,4 @@
-import { site } from "@/lib/site";
+import Link from "next/link";
 
 export function Badge247({ className = "" }: { className?: string }) {
   return (
@@ -35,14 +35,16 @@ export function GoogleMark({ className = "" }: { className?: string }) {
 
 export function GoogleBox() {
   return (
-    <div className="flex flex-col items-center gap-2 bg-muted px-4 py-5 text-center">
-      <span className="text-sm">{site.name}</span>
+    <Link
+      href="/reviews"
+      className="flex flex-col items-center gap-2 bg-muted px-4 py-5 text-center transition-shadow hover:shadow-md"
+    >
       <GoogleMark className="h-14 w-14" />
       <span className="text-amber-500" aria-hidden>
         ★★★★★
       </span>
       <span className="text-lg font-bold">Bekijk onze reviews</span>
-    </div>
+    </Link>
   );
 }
 

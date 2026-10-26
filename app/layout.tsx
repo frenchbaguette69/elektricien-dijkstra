@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { PT_Sans } from "next/font/google";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import { MobileCallBar } from "@/components/mobile-call-bar";
 import { site } from "@/lib/site";
 import "./globals.css";
 
@@ -34,10 +35,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="nl" className={`${ptSans.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col font-sans">
+      <body className="min-h-full flex flex-col pb-16 font-sans sm:pb-0">
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <MobileCallBar />
       </body>
     </html>
   );

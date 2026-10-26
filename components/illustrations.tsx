@@ -11,7 +11,7 @@ export function GroepenkastIllustration() {
           <rect width="92" height="34" fill="#1d1d1d" />
           {breakers.map((_, i) => (
             <g key={i} transform={`translate(${3 + i * 11} 3)`}>
-              <rect width="9" height="28" rx="1" fill={row === 1 && i < 2 ? "#dd3a33" : "#f2f2f2"} />
+              <rect width="9" height="28" rx="1" fill={row === 1 && i < 2 ? "#1b7f37" : "#f2f2f2"} />
               <rect x="2" y="9" width="5" height="8" fill="#555" />
             </g>
           ))}
